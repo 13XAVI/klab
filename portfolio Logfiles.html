@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register</title>
+    <link rel="stylesheet" href="/Register.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="signup-box">
+      <h1>Register Here</h1>
+      <h4>Let take you to my journey</h4>
+      <form onsubmit="myfunc(event)">
+  
+        <label>First Name</label>
+        <input type="text" placeholder="" id="first_name"/>
+        
+        <label>Last Name</label>
+        <input type="text" placeholder="" id ="last_name" />
+        
+        <label>Email</label>
+        <input type="email_id" placeholder="" id="email"/>
+       
+        <label>Password</label>
+        <input type="password" placeholder="" id ="password"/>
+        
+        <label>Confirm Password</label>
+        <input type="password" placeholder="" id="confirmPassword" />
+      
+        <div class="cont" onclick="openpopups()">
+          <input type="submit" class="btn" />
+        </div>
+      </form>
+      <p>you agree to our <br/>
+        <a href="#">Terms and Conditions</a> and <a href="#">Policy Privacy</a>
+      </p>
+    </div>
+    <p class="para-2">
+      Already have an account? <a href="login.html">Login here</a>
+    </p>
+    <script src="/app.js"></script>
+  </body>
+</html>
+
+
